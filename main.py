@@ -4,6 +4,9 @@ name = input("What's your name? ")
 # Remove whitespaces from str
 name = name.strip()
 
+#Capitalize the input
+name = name.capitalize()
+
 # Diffrent ways to say hello to user
 #In one line
 print("hello, " + name)
@@ -14,6 +17,6 @@ print(f"hello, {name}")
 print("hello, ", end="")
 print(name)
 
-#how to use quations
+#how to use quatations
 print('hello, "friend"')
 print("hello, \"friend\"")

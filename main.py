@@ -1,5 +1,12 @@
-# Ask user for ttheir name
+# Ask user for their name
 name = input("What's your name? ")
 
-# Say hello to user
+# Diffrent ways to say hello to user
+#In one line
 print("hello, " + name)
+print("hello,", name)
+print("hello," , name, sep="")
+
+#In two lines
+print("hello, ", end="")
+print(name)
